@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_background"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/verif_message"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/avenir_light"
+        android:gravity="center"
+        android:text="@string/verif_message2"
+        android:textAlignment="center"
+        android:textColor="@color/firmingGreen"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/sendBT"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/verif_result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/raleway"
+        android:text="@string/verif_result_title"
+        android:textColor="@color/firmingWhite"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <ImageView
+        android:id="@+id/verif_result_id_image"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verif_result_title"
+        app:srcCompat="@drawable/idcard_v" />
+
+
+    <TextView
+        android:id="@+id/verif_result_id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/avenir_light"
+        android:text="@string/verif_result_id_info"
+        android:textColor="@color/firmingWhite"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/verif_result_id_image"
+        app:layout_constraintTop_toTopOf="@+id/verif_result_id_image" />
+
+
+    <ImageView
+        android:id="@+id/verif_result_face_image"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verif_result_id_image"
+        app:srcCompat="@drawable/face_v" />
+
+
+    <TextView
+        android:id="@+id/verif_result_face_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/avenir_light"
+        android:text="@string/verif_result_face_info"
+        android:textColor="@color/firmingWhite"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/verif_result_face_image"
+        app:layout_constraintTop_toTopOf="@+id/verif_result_face_image" />
+
+    <ImageView
+        android:id="@+id/verif_result_voice_image"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verif_result_face_image"
+        app:srcCompat="@drawable/voice_v" />
+
+
+    <TextView
+        android:id="@+id/verif_result_voice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/avenir_light"
+        android:text="@string/verif_result_voice_info"
+        android:textColor="@color/firmingWhite"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/verif_result_voice_image"
+        app:layout_constraintTop_toTopOf="@+id/verif_result_voice_image" />
+
+    <ImageView
+        android:id="@+id/verif_result_signature_image"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verif_result_voice_image"
+        app:srcCompat="@drawable/signature_v" />
+
+
+    <TextView
+        android:id="@+id/verif_result_signature_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/avenir_light"
+        android:text="@string/verif_result_signature_info"
+        android:textColor="@color/firmingWhite"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/verif_result_signature_image"
+        app:layout_constraintTop_toTopOf="@+id/verif_result_signature_image" />
+
+
+    <Button
+        android:id="@+id/sendBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/raleway"
+        android:textColor="@color/firmingGray"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorAccent"/>
+
+
+</android.support.constraint.ConstraintLayout>
+

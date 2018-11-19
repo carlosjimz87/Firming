@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.croowly.firming_fv"
+        minSdkVersion 17
+        targetSdkVersion 26
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables{
+            useSupportLibrary = true
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation "com.android.support:design:26.1.0"
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+//    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //  lottie
+    implementation 'com.airbnb.android:lottie:2.2.5'
+    //  butterkninfe
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    //  pdfviewer
+    implementation 'com.github.barteksc:android-pdf-viewer:2.7.0'
+    compileOnly 'javax.annotation:jsr250-api:1.0'
+
+    //  single input form
+    implementation 'com.heinrichreimersoftware:material-singleinputform:3.0.3'
+
+    // text usage
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
+    // camera view
+    implementation 'com.otaliastudios:cameraview:1.4.1'
+
+    //audio recorder
+    implementation 'com.kailashdabhi:om-recorder:1.1.0'
+    implementation 'com.cleveroad:audiovisualization:1.0.0'
+
+    //simple storage
+    implementation 'com.sromku:simple-storage:1.2.0'
+//     pdf editor
+    implementation files('libs/itextpdf-5.5.0.jar')
+    // java mail
+    implementation files('libs/mail.jar')
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    //signature service
+    implementation files('libs/sealsignbssclientlibrary.jar')
+    //compile files('libs/ksoap2-android-assembly-3.6.1-jar-with-dependencies.jar')
+    //volley
+    implementation 'com.android.volley:volley:1.0.0'
+    //dialogs
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+
+
+}

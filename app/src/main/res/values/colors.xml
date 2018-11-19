@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1eb6c4</color>
+    <color name="colorPrimaryDark">#254992</color>
+    <color name="colorAccent">#ff6e40</color>
+
+    <color name="firmingPrimary">#1eb6c4</color>
+    <color name="firmingPrimaryDark">#254992</color>
+    <color name="firmingAccent">#ff6e40</color>
+    <color name="firmingUnAccent">#945a46</color>
+    <color name="firmingGreen">#64dd17</color>
+    <color name="firmingGray">#3c3c3c</color>
+    <color name="firmingWhite">#ffffff</color>
+    <color name="firmingTransparent">#00ffffff</color>
+    <color name="firmingError">#d50000</color>
+
+    <!--<color name="material_light_green_500">#8BC34A</color>-->
+    <!--<color name="material_light_green_700">#689F38</color>-->
+    <!--<color name="material_amber_a200">#FFD740</color>-->
+
+    <!--<color name="material_indigo_500">#3F51B5</color>-->
+    <!--<color name="material_indigo_700">#303F9F</color>-->
+    <!--<color name="material_deep_purple_a200">#7C4DFF</color>-->
+
+    <color name="material_bordeaux_500">#992044</color>
+    <color name="material_bordeaux_700">#67132B</color>
+    <color name="material_bordeaux_800">#561529</color>
+    <color name="material_orange_a200">@color/firmingAccent</color>
+
+
+    <color name="custom_text_field_background_color">@color/firmingWhite</color>
+    <color name="custom_progress_background_color">@color/colorPrimaryDark</color>
+
+    <color name="custom_title_text_color">@color/colorPrimaryDark</color>
+    <color name="custom_details_text_color">@color/firmingWhite</color>
+    <color name="custom_input_text_color">@color/firmingWhite</color>
+    <color name="custom_error_text_color">@color/firmingAccent</color>
+
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Firming</string>
+    <string name="accept">Aceptar</string>
+    <string name="next">Siguiente</string>
+    <string name="cancel">Cancelar</string>
+    <string name="start">Empezar</string>
+    <string name="proceed">Proceder</string>
+    <string name="send">Enviar</string>
+    <string name="retry">Reintentar</string>
+    <string name="clear">Borrar</string>
+    <string name="next_step">Siguiente</string>
+    <string name="finish">Completar</string>
+
+    <!--INIT -->
+    <string name="start_open_account_title">Apertura de Cuenta</string>
+    <string name="start_personal">Persona</string>
+    <string name="start_company">Empresa</string>
+    <string name="start_personal_or_company">Persona o Empresa?</string>
+    <string name="contract_account">Contrato de Cuenta</string>
+    <string name="lopd">LOPD</string>
+    Dni-DNI-->
+
+    <!--PRE CONTRACT-->
+    <string name="precontract_form_title">Información Personal</string>
+    <string name="precontract_form_text">Rellene el formulario prestando especial atención a los campos críticos.</string>
+    <string name="precontract_view_title">Información Precontractual</string>
+    <string name="precontract_view_text">He leído y acepto todas las condiciones del contrato.</string>
+    <string name="more_account_info">Más información sobre esta cuenta</string>
+    <string name="new_account_info">La nueva cuenta sin comisiones de adminstración ni mantenimiento, transferencias gratis y tarjeta de debito sin cuota anual.</string>
+    <string name="by">desarrollado por</string>
+
+    <!--FORM-->
+    <string name="form_completed_title">Formulario Completado</string>
+    <string name="form_info">El formulario se ha completado correctamente. A continuación se procede con la Verificación de Identidad mediante reconocimiento biométrico y análisis del DNI.</string>
+    <string name="form_info2">Presione INICIAR para dar comienzo al Proceso de Verificación.</string>
+    <string name="date_format">%3$d.%2$d.%1$d</string>
+    <string name="page_number">%1$d/%2$d</string>
+
+
+    <string name="eula">Aceptar</string>
+    <string name="eula_title">LOPD</string>
+    <string name="eula_error">Usted no ha aceptado la LOPD</string>
+    <string name="eula_details">Por favor lea detenidamente a los detalles en el Acuerdo de la Ley Orgánica de Protección de Datos (LOPD) y marque la casilla si está de acuerdo con los términos.</string>
+
+    <string name="id">DNI</string>
+    <string name="id_title">DNI</string>
+    <string name="id_error">Esta vacío o el DNI no es válido.</string>
+    <string name="id_details">Su DNI será utilizado como usuario y su identidad será verificada posteriormente por tanto asegúrese de insertarlo correctamente.</string>
+
+
+    <string name="password">Contraseña</string>
+    <string name="password_title">Contraseña</string>
+    <string name="password_error">Contraseña vacía o con menos de 5 caracteres.</string>
+    <string name="password_details">Inserte una contraseña segura (necesario más de 5 caractéres) para proteger su información personal frente a ataques y robos.</string>
+
+    <string name="email">Correo</string>
+    <string name="email_title">Correo electrónico</string>
+    <string name="email_error">Está vacío o el correo no válido.</string>
+    <string name="email_details">El correo electrónico será utilizado solo para enviar la documentación de la cuenta y otras informaciones relacionadas. No se enviará spam o cualquier otro material no deseado.</string>
+
+    <string name="birthdate">Fecha de Nacimiento</string>
+    <string name="birthdate_title">Fecha de Nacimiento</string>
+    <string name="birthdate_error">Usted debe ser mayor de 18 años.</string>
+    <string name="birthdate_details">Necesitas tener la mayoría de edad para abrir una cuenta bancaria con nuestra aplicación. Si estas en este caso, deberas dirigirte a una de nuestras oficinas acompañado de tu tutor legal o persona a cargo.</string>
+
+    <string name="phone">Número de Telefóno</string>
+    <string name="phone_title">Número de Teléfono</string>
+    <string name="phone_error">Número de teléfono no válido</string>
+    <string name="phone_details">Cuando la verificación esté completa, recibirá un mensaje a su teléfono para verificar el número ingresado.</string>
+
+    <!--PRE DNI-->
+    <string name="pre_dni_title">Preparando Verificación de DNI</string>
+    <string name="pre_dni_title2">Voltee el DNI</string>
+    <string name="pre_dni_info">Tenga a mano su DNI y prepárese a usar la cámara para iniciar la verificación. Coloque su DNI en la parte trasera de su telefono móvil y corrija el foco de la cámara hasta que obtenga una imagen nítida y bien posicionada. La aplicación le indicará cuando voltear el DNI para procesar la parte trasera.</string>
+    <string name="pre_dni_info2">Por favor voltee su DNI para procesar la parte trasera.</string>
+    <string name="pre_loading_info">Cargando&#8230;</string>
+
+    <!--PRE FACE-->
+    <string name="pre_face_title">Preparando Verificación Facial</string>
+    <string name="pre_face_info">Prepárese para tomar una foto de su rostro colocándola correctamente dentro de la mascará en la pantalla. Tome la foto cuando la imagen esté nítida y enfocada.</string>
+    <string name="pre_face_loading_info">Cargando&#8230;</string>
+
+
+    <!--PRE SIGN-->
+    <string name="pre_sign_title">Preparando Verificación de Firma</string>
+    <string name="pre_sign_info">Prepárese para firmar el Contrato de Cuenta. Necesita hacer 3 firmas para completar la verificación correctamente.</string>
+    <string name="pre_sign_loading_info">Cargando&#8230;</string>
+
+
+    <!--PRE VOICE-->
+    <string name="pre_voice_title">Preparando Verificación de Voz</string>
+    <string name="pre_voice_info">Prepárese para grabar su voz con el móvil y realizar la verificación de voz. Necesita leer en voz alta la frase que se mostrará en pantalla y tendrá 5 segundos para completar la grabación.</string>
+    <string name="pre_voice_loading_info">Cargando&#8230;</string>
+
+
+    <!--DNI-->
+    <string name="dni_title">Procesamiento del DNI</string>
+    <string name="searching_dni">Buscando DNI&#8230;</string>
+    <string name="dni_info">Coloque el DNI en posición horizontal dentro de la máscara para lograr una verificación correcta.</string>
+    <string name="classifying_dni">Clasificando DNI&#8230;</string>
+    <string name="verifying_dni">Verificando  DNI&#8230;</string>
+
+    <!--FACE-->
+    <string name="face_title">Verificación Facial</string>
+    <string name="face_info">Coloque su rostro en la máscara para lograr una verificación correcta.</string>
+    <string name="searching_face">Buscando rostro&#8230;</string>
+    <string name="processing_face">Procesando características faciales&#8230;</string>
+    <string name="verifying_face">Verificando identidad&#8230;</string>
+
+    <!--VOICE-->
+    <string name="voice_title">Verificación de Voz</string>
+    <string name="voice_info">Presione el botón GRABAR y lea la siguiente frase en voz alta:</string>
+    <string name="voice_status">Estado</string>
+    <string name="voice_timer">00:00:00</string>
+    <string name="voice_phrase">La clave es el sonido de mi voz</string>
+    <string name="voice_mode_sending">Enviando características de la voz &#8230;</string>
+    <string name="voice_mode_verifying">Verificando voz &#8230;</string>
+    <string name="voice_mode_processing">Procesando voz &#8230;</string>
+
+    <!--SIGN-->
+    <string name="sign_title">Verificación de Firma</string>
+    <string name="sign_info">Dibuje su firma en el zona blanca y presione el botón ENVIAR. Necesitará tres intentos para completar la verificación.</string>
+    <string name="sign_mode_sending">Enviando características de firma &#8230;</string>
+    <string name="sign_mode_verifying">Verificando firma &#8230;</string>
+    <string name="sign_mode_processing">Procesando firma &#8230;</string>
+    <string name="sign_failed">Verificación fallida</string>
+    <string name="sign_success">Verificación completada</string>
+    <string name="sign_attempts">Intentos</string>
+
+
+    <!--VERIFICATION RESULT-->
+    <string name="verif_result_title">Pasos de la Verificación</string>
+    <string name="verif_result_title2">Verificación Completada</string>
+    <string name="verif_result_id_info">Procesamiento del DNI</string>
+    <string name="verif_result_face_info">Verificación Facial</string>
+    <string name="verif_result_voice_info">Verificación de Voz</string>
+    <string name="verif_result_signature_info">Verificación de Firma</string>
+    <string name="verif_message1">Presione SIGUIENTE para continuar con la próxima modalidad biométrica.</string>
+    <string name="verif_message2">¡Has COMPLETADO el Proceso de Verificación! Presione el botón TERMINAR para salir y recibirá un correo con el Contrato Firmado.</string>
+
+
+
+    <string name="exit_title">¿Está seguro que desea SALIR?</string>
+    <string name="yes_btn">SI</string>
+    <string name="no_btn">NO</string>
+
+
+</resources>

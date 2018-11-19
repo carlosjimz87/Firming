@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Firming</string>
+    <string name="accept">Accept</string>
+    <string name="next">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="start">Start</string>
+    <string name="proceed">Proceed</string>
+    <string name="send">Send</string>
+    <string name="retry">Retry</string>
+    <string name="clear">Clear</string>
+    <string name="next_step">Next</string>
+    <string name="finish">Finish</string>
+
+    <!--INIT -->
+    <string name="start_open_account_title">Open Account</string>
+    <string name="start_personal">Person</string>
+    <string name="start_company">Company</string>
+    <string name="start_personal_or_company">Person or Company?</string>
+    <string name="contract_account">Account Contract</string>
+    <string name="lopd">LOPD</string>
+    Dni-DNI-->
+
+    <!--PRE CONTRACT-->
+    <string name="precontract_form_title">Personal Info</string>
+    <string name="precontract_form_text">Fill the form taking special care on critical fields.</string>
+    <string name="precontract_view_title">Pre Contract Info</string>
+    <string name="precontract_view_text">I certify that I have read and agreed to all conditions of this contract.</string>
+    <string name="more_account_info">More info about this account</string>
+    <string name="new_account_info">The new account with no commission and maintenance fees, with free transfers and debit card with free yearly subscription.</string>
+    <string name="by">By</string>
+
+    <!--FORM-->
+    <string name="form_completed_title">Form Completed</string>
+    <string name="form_info">The form was completed correctly. Now we proceed with the ID Verification through biometric recognition and ID card analysis.</string>
+    <string name="form_info2">Press START to initialize the Verification process.</string>
+    <string name="date_format">%3$d.%2$d.%1$d</string>
+    <string name="page_number">%1$d/%2$d</string>
+
+    <string name="eula">EULA</string>
+    <string name="eula_title">EULA</string>
+    <string name="eula_error">You have not agree with the EULA</string>
+    <string name="eula_details">Please read carefully the details in the End User License Agreement (EULA) and check the box if you agreed with the terms.</string>
+
+    <string name="id">ID</string>
+    <string name="id_title">ID number</string>
+    <string name="id_error">Empty or invalid ID</string>
+    <string name="id_details">Your ID will be used as the login user and your identity will be verified therefore make sure you typed correctly.</string>
+
+    <string name="password">Password</string>
+    <string name="password_title">Password</string>
+    <string name="password_error">Empty or not 5-chars long password.</string>
+    <string name="password_details">Type a secure password (more than 5-characters) to protect your personal info against attacks and robbery.</string>
+
+    <string name="email">E-mail</string>
+    <string name="email_title">E-mail</string>
+    <string name="email_error">Empty or not well-formed email</string>
+    <string name="email_details">Your e-mail will be used only to send the account documentation and other related information. We will not send spam or any undesired content.</string>
+
+    <string name="phone">Phone Number</string>
+    <string name="phone_title">Phone Number</string>
+    <string name="phone_error">Invalid phone number</string>
+    <string name="phone_details">After the verification is completed, you will receive a message to verify your phone number.</string>
+
+    <string name="birthdate">Birth Date</string>
+    <string name="birthdate_title">Birth Date</string>
+    <string name="birthdate_error">You must be at least 18 years old.</string>
+    <string name="birthdate_details">You need to reach age of majority to open an account with our application. If this is the case, address to an entity office in company of one of your parents or person in charge to do so.</string>
+
+
+    <!--PRE DNI-->
+    <string name="pre_dni_title">Preparing ID Verification</string>
+    <string name="pre_dni_title2">Turn ID</string>
+    <string name="pre_dni_info">Get your ID card and be ready to use your camera to complete the verification. Place your ID card in the back of your phone and correct the focus until you get a well positioned and neat image. The app will show when you must turn the ID card to process the back side.</string>
+    <string name="pre_dni_info2">Please turn your ID card to process the back side.</string>
+    <string name="pre_loading_info">Loading&#8230;</string>
+
+
+    <!--PRE FACE-->
+    <string name="pre_face_title">Preparing Face Verification</string>
+    <string name="pre_face_info">Prepare to take a picture of your face. Put your face correctly inside the mask on the screen. Take a neat and focused image.</string>
+    <string name="pre_face_loading_info">Loading&#8230;</string>
+
+
+    <!--PRE SIGN-->
+    <string name="pre_sign_title">Preparing Signature Verification</string>
+    <string name="pre_sign_info">Get ready to sign the Account Contract. You need to make 3 signatures to complete the verification correctly.</string>
+    <string name="pre_sign_loading_info">Loading&#8230;</string>
+
+
+    <!--PRE VOICE-->
+    <string name="pre_voice_title">Preparing Voice Verification</string>
+    <string name="pre_voice_info">Prepare to record your voice on with the phone and make the voice verification. You need to read at loud the phrase showed on the screen and there will be only 5 seconds to complete the recording.</string>
+    <string name="pre_voice_loading_info">Loading&#8230;</string>
+
+
+
+    <!--DNI-->
+    <string name="dni_title">ID Processing</string>
+    <string name="dni_info">Place the ID card in landscape position and centered on the screen.</string>
+    <string name="searching_dni">Searching ID&#8230;</string>
+    <string name="classifying_dni">Classify ID&#8230;</string>
+    <string name="verifying_dni">Verifying ID&#8230;</string>
+    <string name="flip_dni">Turn the ID card !!!</string>
+
+    <!--FACE-->
+    <string name="face_title">Face Verification</string>
+    <string name="face_info">Place your face on the watermark to get a correct verification.</string>
+    <string name="searching_face">Searching face&#8230;</string>
+    <string name="processing_face">Processing face features&#8230;</string>
+    <string name="verifying_face">Verifying identity&#8230;</string>
+
+    <!--VOICE-->
+    <string name="voice_title">Voice Verification</string>
+    <string name="voice_info">Press RECORD button and read at loud the following phrase:</string>
+    <string name="voice_status">Status</string>
+    <string name="voice_timer">00:00:00</string>
+    <string name="voice_phrase">The key is the sound of my voice</string>
+    <string name="voice_mode_sending">Sending voice features &#8230;</string>
+    <string name="voice_mode_verifying">Verifying voice &#8230;</string>
+    <string name="voice_mode_processing">Processing voice &#8230;</string>
+
+    <!--SIGN-->
+    <string name="sign_title">Signature Verification</string>
+    <string name="sign_info">Draw your signature on the white zone and then press SEND button. You will need three attempts to complete the verification.</string>
+    <string name="sign_mode_sending">Sending signature features &#8230;</string>
+    <string name="sign_mode_verifying">Verifying signature &#8230;</string>
+    <string name="sign_mode_processing">Processing signature &#8230;</string>
+    <string name="sign_failed">Verification failed</string>
+    <string name="sign_success">Verification completed</string>
+    <string name="sign_attempts">Attempts</string>
+
+
+    <!--VERIFICATION RESULT-->
+    <string name="verif_result_title">Verification Steps</string>
+    <string name="verif_result_title2">Verification Completed</string>
+    <string name="verif_result_id_info">ID Processing</string>
+    <string name="verif_result_face_info">Facial Verification</string>
+    <string name="verif_result_voice_info">Voice Verification</string>
+    <string name="verif_result_signature_info">Signature Verification</string>
+    <string name="verif_message1">Press CONTINUE to proceed with the next biometric recognition.</string>
+    <string name="verif_message2">You have completed the Verification Process! Press the FINISH button to exit and you will receive the Signed Contract.</string>
+
+
+
+
+    <string name="exit_title">Are you sure you want to EXIT?</string>
+    <string name="yes_btn">YES</string>
+    <string name="no_btn">NO</string>
+
+</resources>
